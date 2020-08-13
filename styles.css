@@ -1,0 +1,38 @@
+#Date {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#Time{
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    font-size: 36px;
+    background-color: forestgreen;
+    border-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+.header{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+.content{
+    background-color: gray;
+}
