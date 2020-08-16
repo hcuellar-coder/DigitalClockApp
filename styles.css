@@ -1,3 +1,7 @@
+body{
+    background-color: gray;
+}
+
 #Date {
     text-align: center;
     font-size: 48px;
@@ -31,8 +35,4 @@
     text-align: center;
     color: white;
     font-size: 48px;
-}
-
-.content{
-    background-color: gray;
 }
