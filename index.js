@@ -19,7 +19,7 @@ function currentTime() {
     let seconds = currentDate.getSeconds();
     let time = document.getElementById('Time');
 
-    let displayHours = (hours - 12 == 0 ? (hours + 12) : ((hours - 12 < 10 ? '0' : '') + (hours)));
+    let displayHours = ((hours < 10 && hours > 12) ? '0' : '') + ((hours > 0 && hours < 13) ? hours : ((hours == 0) ? 12 : hours - 12));
     let militaryHours = (hours < 10 ? '0' : '') + (hours)
     minutes = (minutes < 10 ? '0' : '') + minutes;
     seconds = (seconds < 10 ? '0' : '') + seconds;
