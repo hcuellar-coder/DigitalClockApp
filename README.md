@@ -3,6 +3,8 @@ A minimalistic Digital Clock App written entirely in JavaScript, HTML and CSS
 
 Code Located [Here](https://github.com/hcuellar-coder/DigitalClockApp)
 
+Run Code [Here](https://codepen.io/hcuellar-coder/pen/abNmdGG)
+
 ## Minimalist Digital Clock App
 
 ![Digital Clock App](./images/digitalClockApp.png)
