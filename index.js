@@ -32,7 +32,7 @@ function currentTime() {
     time.innerHTML = militaryTime ? displayMilitaryTime : displayTime;
 
     displayCurrentDate(currentDate);
-};
+}
 
 function displayCurrentDate(currentDate) {
 
@@ -46,7 +46,7 @@ function displayCurrentDate(currentDate) {
 
 setInterval(currentTime, 1000);
 
-document.getElementById('button').addEventListener('click', function () {
+document.getElementById('button').addEventListener('click', function() {
     militaryTime = !militaryTime;
     currentTime();
 });
